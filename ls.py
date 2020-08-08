@@ -1,2 +1,4 @@
 import os
-print(os.listdir(os.getcwd()))
+listDir = os.listdir(os.getcwd())
+for list in listDir:
+    print(list)
